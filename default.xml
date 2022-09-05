@@ -21,6 +21,11 @@
            revision="Q"
 	       review="" />
 
+  <remote  name="rr-r"
+           fetch="https://github.com/ResurrectionRemix-Revived"
+           revision="Q"
+               review="" />
+
   <remote  name="bb"
            fetch="https://gitlab.com/rr-os"
            revision="Q"
@@ -695,6 +700,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
+  <include name="snippets/revived.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
