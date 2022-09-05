@@ -1,4 +1,4 @@
-# Resurrection Remix OS Q 2020 #
+# Resurrection Remix OS Q 2022 #
 
 
 Getting started
@@ -12,7 +12,7 @@ Sync
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b Q
+repo init -u https://github.com/ResurrectionRemix-Revived/platform_manifest.git -b Q
 
 # Sync
 repo sync --force-sync --no-clone-bundle
@@ -202,23 +202,6 @@ For OTA
 Once you are done with your build you can upload your ota.json file from out/product directory if you are a maintainer.
 ```
 
-How can I be maintainer?
----------------
-```bash
-
-Make a pull request at https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings/blob/Q/res/values/resurrection_device_maintainers_strings.xml
-
-Make the commit like this by including device in fragment https://github.com/ResurrectionRemix/Resurrection_packages_apps_Settings/commit/9686023738c3b09feaa547cb3658d6c2bda737e1
-
-With your name. Choose any device you want to maintain for but in the pull request please post with an xda thread (optional),  device source and kernel source as the commit message
-
-It will be reviewed and changes will be approved if everything is fine
-
-
-Approved maintainers will gain access to RR device repo and RR OTA server
-Credentials will be given in a separate group created for maintainers
-```
-
 Translations 
 ---------------
 ```bash
@@ -241,4 +224,4 @@ Happy building
 
 
 ### - RR Team ###
-
+### - and me ###
