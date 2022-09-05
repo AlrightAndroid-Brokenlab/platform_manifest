@@ -27,7 +27,7 @@
 
   <!-- Bt -->
   <project path="system/bt" name="android_system_bt" remote="rr-r" />
-  <project path="vendor/qcom/opensource/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="rr-r" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="rr-r" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="rr-r" />
