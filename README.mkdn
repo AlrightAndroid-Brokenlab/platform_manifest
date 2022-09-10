@@ -105,7 +105,7 @@ Devices with alertsliders / custom key handlers
 ```bash
  You need to update your keyhandler class and paths to 
 
-<device_tree_path/overlay/frameworks/base/res/res/values/config.xml>
+<device_tree_path/overlay/frameworks/base/core/res/res/values/config.xml>
 
 # Like this 
     <!-- Paths to the libraries that contain device specific key handlers -->
@@ -127,20 +127,15 @@ Set TARGET_FACE_UNLOCK_SUPPORTED := true to build face unlock packages. Do this 
 
 Other configs and locations in device tree
 ---------------
+
+
+Use these lines in <device_tree_path/overlay/frameworks/base/core/res/res/values/config.xml>
 ```bash
-
-
-Use these lines in <device_tree_path/overlay/frameworks/base/res/res/values/config.xml>
-```
     <!-- Whether the device supports Smart Pixels --> 
     <bool name="config_supportSmartPixels">true</bool>
 
     <!-- Whether device has physical tri state switch -->
     <bool name="config_hasAlertSlider">true</bool>
-
-    <!-- Enable face auth when swiping security view  
-      for popup cameras-->
-    <bool name="config_faceAuthOnSecurityView">true</bool>
 
     <!-- Whether device has warp charging support -->
     <bool name="config_hasWarpCharger">true</bool>
@@ -164,7 +159,7 @@ Use these lines in <device_tree_path/overlay/frameworks/base/res/res/values/conf
       2 = 90Hz -->
     <integer name="config_defaultVariableRefreshRateSetting">2</integer>
 
-    <!--Systeminfo for quick settings header -->
+    <!-- Systeminfo for quick settings header -->
     <string name="config_sysCPUTemp">/sys/class/<path_to_option></string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
     <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
@@ -176,8 +171,35 @@ Use these lines in <device_tree_path/overlay/frameworks/base/res/res/values/conf
     <!-- If Smart charging supported by kernel and device sepolicy -->
     <bool name="config_smartChargingAvailable">true</bool>
 
-Use these lines in <device_tree_path/overlay/packages/apps/Settings/res/values/config.xml>
+    <!-- Enable face auth when swiping security view
+      for popup cameras-->
+    <bool name="config_faceAuthOnSecurityView">true</bool>
 ```
+
+Use these lines in <device_tree_path/overlay/frameworks/base/packages/SystemUI/res/values/config.xml>
+```bash
+    <!-- Allow devices to enforce the H265 encoder for screen recordings -->
+    <bool name="config_useNewScreenRecEncoder">true</bool>
+
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false"></string>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1</integer>
+
+    <!-- Burn in protection -->
+    <bool name="config_statusBarBurnInProtection">false</bool>
+    <integer name="config_shift_interval">60</integer>
+
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">false</bool>
+
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false"></string>
+```
+
+Use these lines in <device_tree_path/overlay/packages/apps/Settings/res/values/config.xml>
+```bash
     <!-- Use only if devices have variable intensity support for haptics-->
     <bool name="config_vibration_supports_multiple_intensities">true</bool>
 
@@ -188,7 +210,6 @@ Use these lines in <device_tree_path/overlay/packages/apps/Settings/res/values/c
     <string name="config_batCurCap">path</string>
 
     Replace path with device specific path
-
 ```
 
 Please maintain proper authorship for all commits for above overlays
