@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="android" name="platform_manifest" remote="rr-r"/>
   <project path="build/make" name="android_build" remote="rr-r" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -16,13 +15,11 @@
   </project>
 
   <!-- Apps -->
-  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="rr-r" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="rr-r" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="rr-r" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="rr-r" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="rr-r" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="rr-r" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="rr-r"/>
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="rr-r" />
   <project path="packages/apps/SetupWizard" name="SetupWizard" remote="rr-r" />
 

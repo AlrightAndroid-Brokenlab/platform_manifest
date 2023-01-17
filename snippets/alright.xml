@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <project path="android" name="platform_manifest" remote="alright-broken"/>
+
+
+    <!-- Apps -->
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alright-broken" />
+    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="alright-broken"/>
+</manifest>

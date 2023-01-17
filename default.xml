@@ -31,15 +31,14 @@
            revision="Q"
 	       review="" />
 
-
-  <remote  name="vd"
-           fetch="https://github.com/varund7726"
-           revision="Q"
-	       review="" />
-
   <remote  name="rr-d"
            fetch="https://github.com/ResurrectionRemix-Devices"
            revision="Q" />
+
+  <remote  name="alright-broken"
+           fetch="https://github.com/AlrightAndroid-Brokenlab"
+           revision="Q"
+           review="" />
 
   <default revision="refs/heads/lineage-17.1"
            remote="github"
@@ -701,6 +700,7 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
   <include name="snippets/revived.xml" />
+  <include name="snippets/alright.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>

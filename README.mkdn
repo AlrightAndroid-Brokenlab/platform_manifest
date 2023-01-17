@@ -1,21 +1,21 @@
-# Resurrection Remix OS Q 2022 #
+# AlrightOS - Q #
 
 
 Getting started
 ---------------
 
-To get started with Android/RR, you'll need to get
+To get started with Android/AlrightOS, you'll need to get
 familiar with [git and repo](https://source.android.com/setup/develop).
 
-Sync 
+Sync
 ---------------
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/ResurrectionRemix-Revived/platform_manifest.git -b Q
+repo init --depth=1 -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q
 
 # Sync
-repo sync --force-sync --no-clone-bundle
+repo sync -c -d --force-sync --no-clone-bundle --no-tags
 ```
 
 Build
@@ -27,7 +27,7 @@ Build
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch rr_$device-userdebug
+$ lunch alright_$device-userdebug
 
 # Build the code
 $ mka bacon
@@ -230,19 +230,17 @@ Translations
 We don't have crowdin at the moment so you can merge a pull request in our repos which require translations. Please validate your XMLs first. We will review them and merge them as soon as possible.
 ```
 
-Lastly 
----------------
-```bash
-Remember to give credits where necessary
-```
-
-
 ### That's all for now. ###
 
 Happy building
 ---------------
 ```bash
-
+### Credits
+---------------
 
 ### - RR Team ###
-### - and me ###
+### - RR-Revived Team ### 
+### - AlrightOS Team  ###
+### - Alright-Team ###
+
+```
