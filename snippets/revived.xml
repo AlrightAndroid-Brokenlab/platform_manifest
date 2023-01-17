@@ -39,7 +39,4 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rr-r" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="rr-r" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="rr-r" />
-
-  <!-- Vendor -->
-  <project path="vendor/rr" name="android_vendor_resurrection" remote="rr-r"/>
 </manifest>
