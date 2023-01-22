@@ -35,7 +35,6 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="rr" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="rr" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="rr" /> 
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi"  remote="rr" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="rr"/>
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="rr"/>
 
