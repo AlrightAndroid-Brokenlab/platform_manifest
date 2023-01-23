@@ -12,7 +12,7 @@ Sync
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/ResurrectionRemix-Revived/platform_manifest.git -b Q
+repo init -u https://github.com/ResurrectionRemix-Revived/manifest.git -b Q
 
 # Sync
 repo sync --force-sync --no-clone-bundle
