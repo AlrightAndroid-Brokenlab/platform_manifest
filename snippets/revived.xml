@@ -32,6 +32,9 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rr-r" />
   <project path="frameworks/native" name="frameworks_native" remote="rr-r" />
 
+  <!-- Interfaces -->
+  <project path="hardware/lineage/interfaces" name="hardware_rr_interfaces" remote="rr-r"/>
+
   <!-- SeLinux -->
   <project path="system/sepolicy" name="system_sepolicy" remote="rr-r" />
 
