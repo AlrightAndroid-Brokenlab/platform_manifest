@@ -16,7 +16,6 @@
 
   <!-- Apps -->
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="rr-r" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="rr-r" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="rr-r" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="rr-r" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="rr-r" />
