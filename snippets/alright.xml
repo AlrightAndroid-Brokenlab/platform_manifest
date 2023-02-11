@@ -16,7 +16,7 @@
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="alright-broken" />
 
     <!-- System -->
-     <project path="build" name="build" remote="alright-broken" />
+    <project path="build" name="build" remote="alright-broken" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="alright-broken" />
     <project path="system/bt" name="system_bt" remote="alright-broken" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="alright-broken" />
