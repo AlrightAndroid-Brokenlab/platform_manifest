@@ -15,7 +15,7 @@ Sync
 repo init --depth=1 -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q
 
 # Sync
-repo sync -c -d --force-sync --no-clone-bundle --no-tags
+repo sync -c -d --force-sync --no-clone-bundle --no-tags -j`nproc`
 ```
 
 Build
