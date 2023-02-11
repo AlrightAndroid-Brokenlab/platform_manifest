@@ -20,7 +20,7 @@
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="alright-broken" />
     <project path="system/bt" name="system_bt" remote="alright-broken" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="alright-broken" />
-    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi"  remote="alright-broken" />
+    <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi"  remote="alright-broken" />
     <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="alright-broken" /> 
 
     <!-- Vendor -->
