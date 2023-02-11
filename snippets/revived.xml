@@ -23,9 +23,6 @@
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="rr-r" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="frameworks_base" remote="rr-r" />
-  <project path="frameworks/av" name="frameworks_av" remote="rr-r" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rr-r" />
   <project path="frameworks/native" name="frameworks_native" remote="rr-r" />
 
   <!-- SeLinux -->
@@ -33,10 +30,7 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="rr-r" />
-  <project path="system/bt" name="system_bt" remote="rr-r" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="rr-r" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rr-r" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="rr-r" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="rr-r" />
   
 </manifest>

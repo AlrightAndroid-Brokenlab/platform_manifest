@@ -10,6 +10,19 @@
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="alright-broken"/>
     <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="alright-broken"/>
 
+    <!-- Frameworks -->
+    <project path="frameworks/base" name="frameworks_base" remote="alright-broken" />
+    <project path="frameworks/av" name="frameworks_av" remote="alright-broken" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="alright-broken" />
+
+    <!-- System -->
+     <project path="build" name="build" remote="alright-broken" />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="alright-broken" />
+    <project path="system/bt" name="system_bt" remote="alright-broken" />
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="alright-broken" />
+    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi"  remote="alright-broken" />
+    <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="alright-broken" /> 
+
     <!-- Vendor -->
     <project path="vendor/rr" name="vendor_resurrection" remote="alright-broken"/>
 </manifest>
