@@ -8,6 +8,7 @@
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="alright-broken"/>
     <project path="packages/apps/MotoWidget" name="packages_apps_motowidget" remote="alright-broken"/>
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="alright-broken"/>
+    <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="alright-broken"/>
 
     <!-- Vendor -->
     <project path="vendor/rr" name="vendor_resurrection" remote="alright-broken"/>
