@@ -33,6 +33,19 @@ $ lunch alright_$device-userdebug
 $ mka bacon
 ```
 
+Build Flags
+---------------
+```bash
+Official/Unofficial 
+Add this line to your device.mk
+
+RR_BUILDTYPE := OFFICIAL or UNOFFICIAL
+
+Normally, it sets UNOFFICIAL if you don't use it.
+
+Maintainer string are on 
+packages/apps/Settings/res/values/rr_strings.xml
+```
 
 Important for FOD devices 
 ---------------
