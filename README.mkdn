@@ -240,13 +240,13 @@ We don't have crowdin at the moment so you can merge a pull request in our repos
 
 Happy building
 ---------------
-```bash
 ### Credits
 ---------------
 
-### - RR Team ###
-### - RR-Revived Team ### 
-### - AlrightOS Team  ###
-### - Alright-Team ###
+ - [RR Team](https:/github.com/Resurrection-Remix)
+ - [RR-Revived Team](https:/github.com/ResurrectionRemix-Revived)
+ - [KeepQassa Team](https:/github.com/KeepQassa/)
+ - [Alright-Team](https://github.com/AlrightTeam)
+ 
 
-```
+
