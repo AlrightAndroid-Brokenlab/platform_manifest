@@ -30,7 +30,7 @@
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="alright-broken" />
     <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi"  remote="alright-broken" />
     <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="alright-broken" /> 
-    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="alrighr-broken" />    
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="alright-broken" />    
 
     <!-- Vendor -->
     <project path="vendor/rr" name="vendor_resurrection" remote="alright-broken"/>
