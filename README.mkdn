@@ -12,7 +12,7 @@ Sync
 ```bash
 
 # Initialize local repository
-repo init --depth=1 -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q
+repo init -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q
 
 # Sync
 repo sync -c -d --force-sync --no-clone-bundle --no-tags -j`nproc`
@@ -30,7 +30,7 @@ $ . build/envsetup.sh
 $ lunch rr_$device-userdebug
 
 # Build the code
-$ mka bacon
+$ make bacon
 ```
 
 Build Flags
