@@ -56,4 +56,11 @@
 
   <!-- Vendor -->
   <project path="vendor/rr" name="vendor_resurrection" remote="rr-r"/>
+
+  <!-- Additions -->
+  <!-- MindTheGapps -->
+  <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="qoppa" />
+
+  <!-- MicroG -->
+  <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" revision="master" />
 </manifest>
