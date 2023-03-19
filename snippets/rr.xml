@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Lineage-sdk -->
-  <project path="lineage-sdk" name="lineage-sdk" remote="rr"/>
-
   <!-- Apps -->
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="rr" /> 
   <project path="packages/apps/Updater" name="packages_apps_updater" remote="bb"/>
