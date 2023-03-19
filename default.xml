@@ -31,7 +31,6 @@
            revision="Q"
            review="" />
 
-
   <remote  name="legacy"
            fetch="https://github.com/droid-legacy"
            revision="lineage-17.1"
