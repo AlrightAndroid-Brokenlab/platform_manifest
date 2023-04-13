@@ -13,6 +13,9 @@ Sync
 # Create directory
 mkdir AlrightOS
 
+# Now cd to new directy we created.
+cd AlrightOS
+
 # Initialize local repository
 repo init -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q
 
@@ -20,7 +23,7 @@ repo init -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -
 repo sync -c -d --force-sync --no-clone-bundle --no-tags -j`nproc`
 
 # And on one line if you want.
-mkdir AlrightOS && repo init -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q && 
+mkdir AlrightOS && cd AlrightOS && repo init -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q && 
 repo sync -c -d --force-sync --no-clone-bundle --no-tags -j`nproc`
 ```
 
