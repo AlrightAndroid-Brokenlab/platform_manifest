@@ -10,11 +10,17 @@ familiar with [git and repo](https://source.android.com/setup/develop).
 Sync
 ---------------
 ```bash
+# Create directory
+mkdir AlrightOS
 
 # Initialize local repository
 repo init -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q
 
 # Sync
+repo sync -c -d --force-sync --no-clone-bundle --no-tags -j`nproc`
+
+# And on one line if you want.
+mkdir AlrightOS && repo init -u https://github.com/AlrightAndroid-BrokenLab/platform_manifest.git -b Q && 
 repo sync -c -d --force-sync --no-clone-bundle --no-tags -j`nproc`
 ```
 
