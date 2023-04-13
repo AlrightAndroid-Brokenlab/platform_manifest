@@ -38,6 +38,19 @@ $ . build/envsetup.sh
 # Choose a target
 $ lunch rr_$device-userdebug
 
+# Choose the build type
+$ export GAPPS=true
+to add in gapps.
+$ export GAPPS_ARM32=true
+if you have a 32bit device and want to include gapps.
+
+$ export GAPPS=false
+will include several foss apps including microg.
+
+exporting nothing or
+$ export GAPPS=""
+will create a standard vanilla build.
+
 # Build the code
 $ make bacon
 ```
@@ -256,6 +269,3 @@ Happy building
  - [RR-Revived Team](https:/github.com/ResurrectionRemix-Revived)
  - [KeepQassa Team](https:/github.com/KeepQassa/)
  - [Alright-Team](https://github.com/Alright-Team)
- 
-
-

@@ -19,17 +19,17 @@
   <remote  name="rr"
            fetch="https://github.com/ResurrectionRemix"
            revision="Q"
-	       review="" />
+           review="" />
 
   <remote  name="rr-r"
            fetch="https://github.com/ResurrectionRemix-Revived"
            revision="Q"
-               review="" />
+           review="" />
 
   <remote  name="bb"
            fetch="https://gitlab.com/rr-os"
            revision="Q"
-	       review="" />
+           review="" />
 
   <remote  name="rr-d"
            fetch="https://github.com/ResurrectionRemix-Devices"
@@ -395,7 +395,7 @@
   <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" remote="aosp" />
   <project path="external/xz-java" name="platform/external/xz-java" groups="pdk" remote="aosp" />
   <project path="external/yapf" name="platform/external/yapf" groups="vts,projectarch,pdk" remote="aosp" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
+  <project path="external/zlib" name="LineageOS-Revived/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
@@ -405,7 +405,7 @@
   <project path="frameworks/hardware/interfaces" name="LineageOS/android_frameworks_hardware_interfaces" groups="pdk" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" remote="aosp" />
+  <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <!--project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" /-->
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
@@ -418,7 +418,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ike" name="platform/frameworks/opt/net/ike" groups="pdk" remote="aosp" />
   <!--project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" /-->
-  <!--project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" /-->
+  <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
