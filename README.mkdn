@@ -38,6 +38,17 @@ $ . build/envsetup.sh
 # Choose a target
 $ lunch rr_$device-userdebug
 
+# Build the code
+$ make bacon
+```
+
+Build Flags
+---------------
+```bash
+
+# Maintainer string are on 
+> packages/apps/Settings/res/values/rr_strings.xml
+
 # Choose the build type
 $ export GAPPS=true
 to add in gapps.
@@ -50,16 +61,6 @@ will include several foss apps including microg.
 exporting nothing or
 $ export GAPPS=""
 will create a standard vanilla build.
-
-# Build the code
-$ make bacon
-```
-
-Build Flags
----------------
-```bash
-Maintainer string are on 
-packages/apps/Settings/res/values/rr_strings.xml
 ```
 
 Important for FOD devices 
