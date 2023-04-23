@@ -16,5 +16,5 @@
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="alright-broken" />    
 
     <!-- Vendor -->
-    <project path="vendor/rr" name="vendor_resurrection" remote="alright-broken"/>
+    <project path="vendor/alright" name="vendor_alright" remote="alright-broken"/>
 </manifest>
