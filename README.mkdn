@@ -36,7 +36,7 @@ Build
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch rr_$device-userdebug
+$ lunch alright_$device-userdebug
 
 # Build the code
 $ make bacon
